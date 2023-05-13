@@ -1,0 +1,10 @@
+<div class="forumquest">
+<mat-form-field appearance="fill" class="f-quest">
+    <mat-label>Ask Question</mat-label>
+    <input matInput [(ngModel)]="query">
+</mat-form-field>
+
+<button mat-raised-button color="primary" class="b1" (click)="AddQuestion()">Submit</button>
+</div>
+<app-formcard *ngFor="let x of forumlist" [f]="x">  
+</app-formcard>

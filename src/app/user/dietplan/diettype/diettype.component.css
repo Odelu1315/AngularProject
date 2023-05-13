@@ -1,0 +1,19 @@
+.service-box{
+    float: left;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px gray;
+    margin: 20px;
+    text-align: center;
+    background-color: #bee0ec;
+}
+.service-box:hover{
+transform: scale(1.1);
+}
+.dietname1{
+    font-family:'Times New Roman';
+    font-style: italic;
+    margin-top: 80px;
+
+}

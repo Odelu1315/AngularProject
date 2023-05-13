@@ -1,0 +1,14 @@
+#wrapper{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.dropdown{
+    margin-top:20px;
+    margin-left:50px;
+   
+}
+.searchbar{
+    margin-left: 250px;
+}

@@ -1,0 +1,10 @@
+{
+    "menubar": {
+        "home" : "Home",
+        "dietplan": "Dietplan",
+        "create":"Create",
+        "forum": "Forum",
+        "suggestions":"Suggestions"
+    }
+    
+}

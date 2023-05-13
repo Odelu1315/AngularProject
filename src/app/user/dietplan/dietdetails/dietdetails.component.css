@@ -1,0 +1,25 @@
+.d-details{
+    width:40%;
+    height:80%;
+    border-radius:10px;
+    background-color:#deedfc ;
+    margin-left:30%;
+    margin-top: 20px;
+    
+}
+.diettitle{
+    font-family:'Times New Roman';
+    font-style:italic;
+    font-size:25px;
+    color:#28adab;
+    text-align: center;
+    margin-top:10px;
+    padding-top:18px;
+    font-weight:bold;
+}
+.dietd{
+    font-family: "Roboto";
+    font-size: 15px;
+    margin-left:15px;
+    
+}

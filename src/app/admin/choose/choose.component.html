@@ -1,0 +1,13 @@
+<mat-toolbar class="menu-bar">
+    <span class="title"> Fit Pro Admin</span> 
+    <ul>
+      
+      <li><a  class="listelement"(click)="products()">Products</a></li>
+      <li><a (click)="postres()">Post Response</a></li>
+      <li><a (click)="answer()">Answer Suggestion</a></li>
+      
+      <li><button class="listelement2" mat-icon-button (click)="logout()"> <mat-icon>logout</mat-icon> Logout</button></li>
+    </ul>
+    
+  </mat-toolbar>
+  <router-outlet></router-outlet>

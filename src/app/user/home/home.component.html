@@ -1,0 +1,12 @@
+<div class="dropdown">
+    <select [(ngModel)]="selected" (change)="filterProducts()">
+      <option *ngFor="let x of types">{{x}}</option>
+    </select>
+    <input class="searchbar"type="text" placeholder="Search" [(ngModel)]="searchValue" (keyup)="filterProducts()">
+  </div>
+  <div id="wrapper">
+    <app-product *ngFor="let x of filteredList" [pro]="x"></app-product>
+  </div>
+  <router-outlet></router-outlet>
+  
+    

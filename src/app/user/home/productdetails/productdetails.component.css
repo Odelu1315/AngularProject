@@ -1,0 +1,54 @@
+.details {
+    background-color: #deedfc;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .image {
+    width: 310px;
+    height: 310px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .img {
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+  }
+  
+  .producttitle {
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-size: 25px;
+    color: black;
+    margin-left: 80px;
+  }
+  
+  .productdescription {
+    margin-top: 70px;
+    width: 60%;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin: 20px;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #070707;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  

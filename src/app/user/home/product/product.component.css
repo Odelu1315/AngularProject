@@ -1,0 +1,41 @@
+.service-box{
+    float: left;
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px gray;
+    margin: 30px;
+    border-radius: 20px;
+}
+.service-box:hover{
+    transform: scale(1.1);
+}
+.image-holder{
+    height: 80%;
+    width: 100%;
+    background-color: #bee0ec;
+    display: flex;
+    justify-content: center;
+}
+
+.image-holder img{
+    height: 80%;
+    width: 80%;
+    margin-top:20px;
+    margin-left:10px;
+    border-radius:8px
+    
+
+}
+
+
+.text{
+    height: 20%;
+    text-align: center;
+    background-color: #fcf7f5;
+    color:#499c97;
+    font-family: "Roboto";
+    font-size: 20px;
+    padding-top: 15px;
+    box-sizing: border-box;
+}

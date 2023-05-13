@@ -1,0 +1,59 @@
+
+<div id="login-card" *ngIf="logform">
+    <h1 class="title">Fit Pro</h1>
+        <table id="log-table">
+             <tr>
+                 <th>Email</th>
+                 <td><input type="text" [(ngModel)]="email"></td>
+             </tr>
+             <tr>
+                 <th>Password</th>
+                 <td><input type="password" [(ngModel)]="password"></td>
+             </tr>
+             <tr>      
+                 <td colspan=2 
+                     style="text-align:center"><button class="button1"  (click)="login()">Login</button></td>
+             </tr>
+             <tr>
+                 
+                 <td colspan=2 
+                     style="text-align:center; color: #7fbaf5" (click)="toggle()">New User? SignUp</td>
+             </tr>
+        </table>
+        <div class="errors">{{error}}</div>       
+    </div>
+    <div id="login-card" *ngIf="!logform">
+        <h1 class="title2">Fit Pro</h1>
+            <table id="log-table2">
+                 <tr>
+                     <th>Username</th>
+                     <td><input type="text" [(ngModel)]="rusername"></td>
+                 </tr>
+                 <tr>
+                     <th>Password</th>
+                     <td><input type="password" [(ngModel)]="rpassword"></td>
+                 </tr>
+
+                 <tr>
+                    <th>Verify Password</th>
+                    <td><input type="password" [(ngModel)]="vpassword"></td>
+                </tr>
+
+                <tr>
+                    <th>Email</th>
+                    <td> <input type="text" [(ngModel)]="remail"></td>
+                </tr>
+                 <tr>
+                     
+                     <td colspan=2 
+                         style="text-align:center"><button (click)="register()" class="button1">Register</button></td>
+                 </tr>
+                 <tr>
+                     
+                     <td colspan=2 
+                         style="text-align:center; color: #7fbaf5" (click)="toggle()">Already Existing User? Login </td>
+                 </tr>
+            </table>
+            <div class="errors">{{rerror}}</div>
+    </div>
+    
